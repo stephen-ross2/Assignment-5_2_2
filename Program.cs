@@ -10,7 +10,7 @@
             Console.WriteLine("Enter the number of natural numbers to print:");
             int numbersToPrint = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("The first {0} natural numbers are:", numbersToPrint);
+            Console.WriteLine($"The first {numbersToPrint} natural numbers are:", numbersToPrint);
             PrintNaturalNumbers(numbersToPrint);
         }
 
